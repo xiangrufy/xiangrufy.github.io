@@ -1,69 +1,148 @@
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>小范同学</title>
+    <title>小范同学 </title>
     <meta name="keywords" content="">
-    <script type="text/javascript">
-	document.addEventListener("WeixinJSBridgeReady", function () {
-	    audioAutoPlay('bgaudio');
-	}, false);
-	document.addEventListener('YixinJSBridgeReady', function() {
-	    audioAutoPlay('bgaudio');
-	}, false);
-	</script>
-	<link  type="text/css"  href="http://www.tianox.com:80/teamplate/heart/css/default.css"rel="stylesheet">
+<script type="text/javascript">
+document.addEventListener("WeixinJSBridgeReady", function () {
+    audioAutoPlay('bgaudio');
+}, false);
+document.addEventListener('YixinJSBridgeReady', function() {
+    audioAutoPlay('bgaudio');
+}, false);
+</script>
+
 	<link rel="stylesheet" href="http://www.tianox.com:80/css/style.css" type="text/css"></link>
-	<style type="text/css">
-		#code {
-			float: left;
-			width: 440px;
-			height: 400px;
-			color: #FF2B2B;
-			font-family: "幼圆";
-			font-size: 14px;
-		}
-	</style>
+<link rel='stylesheet' href='http://www.tianox.com:80/teamplate/giftFlower/css/55c16d94000109f300000000.css' />
+<link rel='stylesheet' href='http://www.tianox.com:80/teamplate/giftFlower/css/55c16dab0001286100000000.css' />
+<link rel='stylesheet' href='http://www.tianox.com:80/teamplate/giftFlower/css/55c16dc00001fa1a00000000.css' />
+<link rel='stylesheet' href='http://www.tianox.com:80/teamplate/giftFlower/css/55c16dda0001113100000000.css' />
+
+<style type="text/css">
+.terminal {
+	font-size: 14px;
+	font-weight:bold;
+	color: #FFFFFF;
+	letter-spacing: 8px;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	z-index: 100;
+	text-align: left;
+}
+</style>
 </head>
-<body style="background-color: #66ACAC">
+
+<body>
 <div style="display:none">
     
-    	
-    	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=423015566&auto=1&height=66"></iframe>
+        
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=27836179&auto=1&height=66"></iframe>
     
 </div>
-<input type="hidden" id = "loveDate" value='2017-01-27 00:00:00' >
-	<div id="mainDiv">
-		<div id="content">
-			<div id="code" style="display:none;">
-				 <span class="space">小范同学:</span><br><span class="space">    写点什么呢，我很幸运,在这个时候遇到了你。(一秒钟可以改变人的一生,我这是改变了多少秒才重新认识的你)虽然我们“重新”认识的时间不长,不过有句话叫相见恨晚(在我们这应该叫“重”见恨晚)。记得和你说我认为三天时间能看出两个人是否能相处,两个月时间能看出两个人是否性格合适,但是这次我觉得人生那么短,我不想错过! 环境能改变一个人,我觉得改变的不过是人心,我觉得做人的原则不会变,可能你会觉得我有些幼稚,不过我也想把这一面展现给你,想让你了解我。(其实想跟你说:"你赚大了,现在的“小鲜肉”和以后的“老腊肉”你都会有")	可能我是没有别人会照顾人,也没有其他人会说一些好听的话,但是我觉得这些对于我来说都不重要。(😀主要是想让你教我) 
-				 之前你说过:只想愿得一人心,我觉得我没法回答,我只想让你了解我,让你不会后悔认识我。我也一直觉得我能照顾你,也能承担自己该有的责任。表白对我来说总是那么难(其实是没文化,词穷)虽然说不了那些海誓山盟,但是如果你愿意,我会让时间见证。</span><br><span class="space">	      </span>
-			</div>
-			<div id="loveHeart">
-				<canvas id="garden"></canvas>
-				<div id="words">
-					<div id="messages">
-						重新认识
-						<div id="elapseClock"></div>
-					</div>
-					<div id="loveu">
-							冥冥中自有安排 <br/>
-						<div class="signature">-- 铃响</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="watermark">
-			<a href="http://www.tianox.com" target="_blank">@铃响提供技术支持 www.lingxiang.com </a>
-		</div>
+<div id="saycontent" style="display: none" ><span class="space">小范同学:</span><br><span class="space"></span><br><span class="space">写点什么呢，我很幸运,在这个时候遇到了你。(一秒钟可以改变人的一生,我这是改变了多少秒才重新认识的你)</span><br><span class="space"></span><br><span class="space">虽然我们“重新”认识的时间不长,不过有句话叫相见恨晚。(在我们这应该叫“重”见恨晚)</span><br><span class="space"></span><br><span class="space">记得和你说我认为三天时间能看出两个人是否能相处,两个月时间能看出两个人是否性格合适,但是这次我觉得人生那么短,我不想错过! </span><br><span class="space"></span><br><span class="space">环境能改变一个人,我觉得改变的不过是人心,我觉得做人的原则不会变,可能你会觉得我有些幼稚,不过我也想把这一面展现给你,想让你了解我。(其实想跟你说:"你赚大了,现在的“小鲜肉”和以后的“老腊肉”你都会有")</span><br><span class="space"></span><br><span class="space">可能我是没有别人会照顾人,也没有其他人会说一些好听的话,但是我觉得这些对于我来说都不重要。(😀主要是想让你教我) </span><br><span class="space"></span><br><span class="space">之前你说过:只想愿得一人心,我觉得我没法回答,我只想让你了解我,让你不会后悔认识我。</span><br><span class="space"></span><br><span class="space">我也一直觉得我能照顾你,也能承担自己该有的责任。</span><br><span class="space"></span><br><span class="space">表白对我来说总是那么难</span><br><span class="space"></span><br><span class="space">虽然说不了那些海誓山盟,但是如果你愿意,我会让时间见证。</span><br><span class="space"></span><br><span class="space">你愿意成为我永远的现在么?</span><br><span class="space">	      </span><br><span class="space">	      </span><br><span class="space">	      </span><br><span class="space">	      </span><br><span class="space">	      </span><br><span class="space">	      </span><br><span class="space">	      </span><br><span class="space">	      </span></div>
+<div id='content'>
+    <ul class='content-wrap'>
+        <!-- 第一副画面 -->
+        <li>
+            <!-- 背景图 -->
+            <div class="a_background">
+                <div class="a_background_top"></div>
+                <div class="a_background_middle"></div>
+                <div class="a_background_botton"></div>
+            </div>
+            <!-- 云 -->
+            <div class="cloudArea">
+                <div class="cloud cloud1"></div>
+                <div class="cloud cloud2"></div>
+            </div>
+            <!-- 太阳 -->
+            <div id="sun"></div>
+        </li>
+        <!-- 第二副画面 -->
+        <li>
+            <!-- 背景图 -->
+            <div class="b_background"></div>
+            <div class="b_background_preload"></div>
+            <!-- 商店 -->
+            <div class="shop">
+                <div class="door">
+                    <div class="door-left"></div>
+                    <div class="door-right"></div>
+                </div>
+                <!-- 灯 -->
+                <div class="lamp"></div>
+            </div>
+            <!-- 鸟 -->
+            <div class="bird"></div>
+        </li>
+        <!-- 第三副画面 -->
+        <li>
+            <!-- 背景图 -->
+            <div class="c_background">
+                <div class="c_background_top"></div>
+                <div class="c_background_middle"></div>
+                <div class="c_background_botton"></div>
+            </div>
+            <!-- 小女孩 -->
+            <div class="girl"></div>
+            <div class="bridge-bottom">
+                <div class="water">
+                    <div id="water1" class="water_1"></div>
+                    <div id="water2" class="water_2"></div>
+                    <div id="water3" class="water_3"></div>
+                    <div id="water4" class="water_4"></div>
+                </div>
+            </div>
+            <!-- 星星 -->
+            <ul class="stars">
+                <li class="stars1"></li>
+                <li class="stars2"></li>
+                <li class="stars3"></li>
+                <li class="stars4"></li>
+                <li class="stars5"></li>
+                <li class="stars6"></li>
+            </ul>
+            <div class="logo">小范同学,love you forever</div>
+            <div class="terminal"></div>
+        </li>
+    </ul>
+    <!-- 雪花 -->
+    <div id="snowflake"></div>
+    <!-- 小男孩 -->
+    <div id="boy" class="charector"></div>
+    
+	<div class="watermark">
+		<a href="http://www.lingxiang.me" target="_blank">@铃响提供技术支持 www.lingxiang.me </a>
 	</div>
-	<div style="display: none">
-	<script>
+			
+</div>
+<script type="text/javascript" src="http://www.tianox.com:80/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.tianox.com:80/js/autoplay.js"></script>
+<script type="text/javascript" src="http://www.tianox.com:80/teamplate/giftFlower/js/55ac9a860001a6c500000000.js"></script>
+<script type="text/javascript" src="http://www.tianox.com:80/teamplate/giftFlower/js/55ac9ea30001ace700000000.js"></script>
+<script type="text/javascript" src="http://www.tianox.com:80/teamplate/giftFlower/js/55c16c910001e21b00000000.js"></script>
+<script type="text/javascript" src="http://www.tianox.com:80/js/typewriting.min.js"></script>
+
+<script type="text/javascript">
+
+$(function(){
+	var str= $("#saycontent").html();
+	var sign = "<br><br><br><span style='float:right'>天牛表白网</span>";
+	setTimeout( function(){
+		$('.terminal').typewriting(str+sign, {
+			"typing_interval": 300,
+			"blink_interval": "1s",
+			"cursor_color": "#FFFFFF"
+		}, function() {
+			console.log( "END" );
+		});
+		
+	}, 32000);
+});
+</script>
+<div style="display: none">
+<script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -72,41 +151,8 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-	
+
 		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256941446'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1256941446' type='text/javascript'%3E%3C/script%3E"));</script>
 	</div>
 </body>
-<script type="text/javascript" src="http://www.tianox.com:80/teamplate/heart/js/jquery.js"></script>
-<script type="text/javascript" src="http://www.tianox.com:80/js/autoplay.js"></script>
-<script type="text/javascript" src="http://www.tianox.com:80/teamplate/heart/js/garden.js"></script>
-<script type="text/javascript" src="http://www.tianox.com:80/teamplate/heart/js/functions.js"></script>
-<script type="text/javascript">
-var offsetX = $("#loveHeart").width() / 2;
-var offsetY = $("#loveHeart").height() / 2 - 55;
-var together = new Date(Date.parse($("#loveDate").val().replace(/-/g,  "/"))); 
-
-if (!document.createElement('canvas').getContext) {
-	var msg = document.createElement("div");
-	msg.id = "errorMsg";
-	msg.innerHTML = "亲爱的，你的浏览器不支持HTML5!看不了网站效果<br/>"+
-	"请使用以下浏览器 Chrome 14+IE 9+/Firefox 7+/Safari 4+/Opera 10+<br/>"+
-	"如果没有以上浏览器，<br/>";
-	document.body.appendChild(msg);
-    document.execCommand("stop");
-} else {
-	$("#code").css("display", "");
-	setTimeout(function () {
-		startHeartAnimation();
-	}, 5000);
-
-	timeElapse(together);
-	setInterval(function () {
-		timeElapse(together);
-	}, 500);
-
-	adjustCodePosition();
-	$("#code").typewriter();
-}
-</script>
 </html>
-	
